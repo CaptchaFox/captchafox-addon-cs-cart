@@ -1,0 +1,1 @@
+# CaptchaFox Add-on for CS-Cart
