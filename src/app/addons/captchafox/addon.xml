@@ -3,7 +3,7 @@
     <id>captchafox</id>
     <name>CaptchaFox</name>
     <description>Protect the forms in your store with CaptchaFox</description>
-    <version>1.0</version>
+    <version>1.0.0</version>
     <priority>1500</priority>
     <supplier>CaptchaFox</supplier>
     <supplier_link>https://captchafox.com</supplier_link>
