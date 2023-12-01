@@ -1,0 +1,146 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: captchafox\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::captchafox"
+msgid "CaptchaFox"
+msgstr "CaptchaFox"
+
+msgctxt "Addons::description::captchafox"
+msgid "<p>To get started, input your site and secret key in the settings tab.<br/><br/><a target=\"_blank\" href=\"https://docs.captchafox.com/getting-started\">Documentation</a><br/><a target=\"_blank\" href=\"https://portal.captchafox.com\">Portal</a></p>"
+msgstr "<p>To get started, input your site and secret key in the settings tab.<br/><br/><a target=\"_blank\" href=\"https://docs.captchafox.com/getting-started\">Documentation</a><br/><a target=\"_blank\" href=\"https://portal.captchafox.com\">Portal</a></p>"
+
+msgctxt "SettingsSections::captchafox::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::captchafox::mode"
+msgid "Mode"
+msgstr "Mode"
+
+msgctxt "SettingsVariants::captchafox::mode::popup"
+msgid "Pop-up"
+msgstr "Pop-up"
+
+msgctxt "SettingsVariants::captchafox::mode::inline"
+msgid "Inline"
+msgstr "Inline"
+
+msgctxt "SettingsOptions::captchafox::lang"
+msgid "Language"
+msgstr "Language"
+
+msgctxt "SettingsVariants::captchafox::lang::auto"
+msgid "Auto-Detect"
+msgstr "Auto-Detect"
+
+msgctxt "SettingsVariants::captchafox::lang::en"
+msgid "English"
+msgstr "English"
+
+msgctxt "SettingsVariants::captchafox::lang::de"
+msgid "German"
+msgstr "German"
+
+msgctxt "SettingsVariants::captchafox::lang::zh-cn"
+msgid "Chinese (simplified)"
+msgstr "Chinese (simplified)"
+
+msgctxt "SettingsVariants::captchafox::lang::zh-tw"
+msgid "Chinese (traditional)"
+msgstr "Chinese (traditional)"
+
+msgctxt "SettingsVariants::captchafox::lang::cs"
+msgid "Czech"
+msgstr "Czech"
+
+msgctxt "SettingsVariants::captchafox::lang::da"
+msgid "Danish"
+msgstr "Danish"
+
+msgctxt "SettingsVariants::captchafox::lang::nl"
+msgid "Dutch"
+msgstr "Dutch"
+
+msgctxt "SettingsVariants::captchafox::lang::fi"
+msgid "Finnish"
+msgstr "Finnish"
+
+msgctxt "SettingsVariants::captchafox::lang::fr"
+msgid "French"
+msgstr "French"
+
+msgctxt "SettingsVariants::captchafox::lang::id"
+msgid "Indonesian"
+msgstr "Indonesian"
+
+msgctxt "SettingsVariants::captchafox::lang::it"
+msgid "Italian"
+msgstr "Italian"
+
+msgctxt "SettingsVariants::captchafox::lang::ja"
+msgid "Japanese"
+msgstr "Japanese"
+
+msgctxt "SettingsVariants::captchafox::lang::ko"
+msgid "Korean"
+msgstr "Korean"
+
+msgctxt "SettingsVariants::captchafox::lang::no"
+msgid "Norwegian"
+msgstr "Norwegian"
+
+msgctxt "SettingsVariants::captchafox::lang::pt"
+msgid "Portuguese"
+msgstr "Portuguese"
+
+msgctxt "SettingsVariants::captchafox::lang::pl"
+msgid "Polish"
+msgstr "Polish"
+
+msgctxt "SettingsVariants::captchafox::lang::ru"
+msgid "Russian"
+msgstr "Russian"
+
+msgctxt "SettingsVariants::captchafox::lang::es"
+msgid "Spanish"
+msgstr "Spanish"
+
+msgctxt "SettingsVariants::captchafox::lang::sv"
+msgid "Swedish"
+msgstr "Swedish"
+
+msgctxt "SettingsVariants::captchafox::lang::tr"
+msgid "Turkish"
+msgstr "Turkish"
+
+msgctxt "SettingsVariants::captchafox::lang::uk"
+msgid "Ukrainian"
+msgstr "Ukrainian"
+
+msgctxt "SettingsOptions::captchafox::site_key"
+msgid "Site key"
+msgstr "Site key"
+
+msgctxt "SettingsOptions::captchafox::secret_key"
+msgid "Secret key"
+msgstr "Secret key"
+
+msgctxt "SettingsOptions::captchafox::use_for_settings"
+msgid "Form Settings"
+msgstr "Form Settings"
+
+msgctxt "Languages::captchafox.use_for_active"
+msgid "Active"
+msgstr "Active"
+
+msgctxt "Languages::captchafox.use_for_inactive"
+msgid "Inactive"
+msgstr "Inactive"
+
+msgctxt "Languages::captchafox.error_verification_failed"
+msgid "Anti-Robot verification failed. Please try again."
+msgstr "Anti-Robot verification failed. Please try again."

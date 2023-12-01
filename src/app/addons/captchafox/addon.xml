@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>captchafox</id>
+    <name>CaptchaFox</name>
+    <description>Protect the forms in your store with CaptchaFox</description>
+    <version>1.0</version>
+    <priority>1500</priority>
+    <supplier>CaptchaFox</supplier>
+    <supplier_link>https://captchafox.com</supplier_link>
+    <status>active</status>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+    <authors>
+        <author>
+            <name>CaptchaFox</name>
+            <email>hello@captchafox.com</email>
+            <url>https://captchafox.com</url>
+        </author>
+    </authors>
+    <compatibility>
+        <conflicts>recaptcha</conflicts>
+    </compatibility>
+    <settings edition_type="ROOT,STOREFRONT">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="site_key">
+                        <type>input</type>
+                    </item>
+                    <item id="secret_key">
+                        <type>input</type>
+                    </item>
+                    <item id="mode">
+                        <type>selectbox</type>
+                        <variants>
+                            <item id="inline"></item>
+                            <item id="popup"></item>
+                        </variants>
+                    </item>
+                    <item id="lang">
+                        <type>selectbox</type>
+                        <variants>
+                            <item id="auto"></item>
+                            <item id="zh-cn"></item>
+                            <item id="zh-tw"></item>
+                            <item id="en"></item>
+                            <item id="de"></item>
+                            <item id="cs"></item>
+                            <item id="da"></item>
+                            <item id="nl"></item>
+                            <item id="fi"></item>
+                            <item id="fr"></item>
+                            <item id="id"></item>
+                            <item id="it"></item>
+                            <item id="ja"></item>
+                            <item id="ko"></item>
+                            <item id="no"></item>
+                            <item id="pt"></item>
+                            <item id="pl"></item>
+                            <item id="ru"></item>
+                            <item id="es"></item>
+                            <item id="sv"></item>
+                            <item id="tr"></item>
+                            <item id="uk"></item>
+                        </variants>
+                    </item>
+                    <item id="use_for_settings">
+                        <type>header</type>
+                    </item>
+                    <item id="captchafox_use_for_value">
+                        <type>hidden</type>
+                    </item>
+                    <item id="captchafox_use_for">
+                        <type>template</type>
+                        <default_value>use_for_settings.tpl</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+</addon>
