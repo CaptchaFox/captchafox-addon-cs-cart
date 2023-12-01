@@ -1,0 +1,23 @@
+name: Release
+
+on: workflow_dispatch
+
+jobs:
+  build:
+    name: Build zip
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Archive Release
+        uses: thedoctor0/zip-release@0.7.5
+        with:
+          type: 'zip'
+          filename: '../captchafox.zip'
+          directory: './src'
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: captchafox
+          path: ${{ github.workspace }}/captchafox.zip
+          retention-days: 5
